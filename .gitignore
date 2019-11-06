@@ -1,0 +1,34 @@
+#  Local .terraform directories
+**/.terraform*
+
+
+# **/packer/
+**certs/
+**temp/
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# .tfvars files
+*.tfvars
+
+# Ignore Backend Files
+backend.tf
+
+# Other files that should not be kept
+id_rsa*
+*.json
+*.zip
+*.pem
+*.sh
+!update_groups.sh
+
+crash.log
+blah.txt
+
+kube_config_cluster.yml
+credentials.json
+cluster.yml
+cluster.rkestate
+variables.conf
